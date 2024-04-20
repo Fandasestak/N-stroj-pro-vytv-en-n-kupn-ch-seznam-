@@ -1,0 +1,54 @@
+.container {
+    justify-content: space-between;
+    text-align: center;
+    color:navy;
+    border: 2px solid navy;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.container:hover {
+    color: grey;
+    border: 2px solid grey;;
+    box-shadow: 2px 2px 2px 1px grey;
+}
+.input {
+    text-align: center;
+    color:grey;
+    margin: 2px 3px 7px 3px;
+    outline-color: grey;
+    border: none;
+    transition:  all 1s;
+
+
+}
+.input:hover {
+    box-shadow: 0px 0px 2px 0px grey;
+}
+.btn_ {
+    color: navy;
+    background:  none;
+    border: none;
+    margin: 0px 1px 8px 1px;
+    box-shadow: 2px 2px 2px 1px navy;
+    transition: all 1s;
+}
+.btn_:hover {
+    color: grey;
+    margin: 0px 1px 15px 1px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px grey;
+    font-size: smaller;
+}
+.created_btn {
+    margin: 1px 3px 5px 3px;
+    color: grey;
+    background: none;
+    border: none;
+    box-shadow: 2px 2px 2px 1px navy;
+    transition: all 1s;
+}
+.created_btn:hover {
+    border: none;
+    box-shadow: 2px 2px 2px 1px grey;
+    font-size: smaller;
+}
